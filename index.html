@@ -1,0 +1,309 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src='https://vjs.zencdn.net/6.4.0/video.js'></script>
+    <link href="https://vjs.zencdn.net/7.5.4/video-js.css" rel="stylesheet">
+    <script src="/js/script.js"></script>
+
+
+
+
+    <script>
+        $(function () {
+            $("#accordion").accordion({
+                collapsible: true
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <header class="header">
+
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+        <ul class="menu">
+            <li><a href="#header">OVER ONS</a></li>
+            <li><a href="#playlist">LESMATERIAAL</a></li>
+            <li><a href="#support">CONTACT</a></li>
+        </ul>
+    </header>
+
+    <main>
+        <div class="tinted-imageblue">
+            <div id="imagetext">
+                <h2>Van beginner naar expert <br> Het lesmateriaal brengt je verder
+                </h2>
+                <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Etiam porta sem
+                    malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Donec id elit
+                    non mi porta gravida at eget metus. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor
+                    auctor.</p>
+            </div>
+        </div>
+        <!-- end header image -->
+        <!-- begin playlist -->
+        <div id="playlist">
+            <h3>Playlist</h3>
+
+            <div id="accordion">
+                <section class="sectionheader">
+                    <h3>Algemene introductie <button class="viewed"></button><button class="workshop"> Intro</button>
+                    </h3>
+
+                    <div class="accordionparagraph">
+                        <video class="video-js vjs-16-9" id="my-video1" controls autoplay muted loop data-setup='{}'>
+                            <source src="/video/mikethefrog.mp4" type="video/mp4" width="auto">
+                            <!-- <source src="mov_bbb.ogg" type="video/ogg"> -->
+                            Your browser does not support HTML5 video.
+                        </video>
+                        <div class="popup-overlay">
+                            <!--Creates the popup content-->
+                            <div class="popup-content">
+                                <p> Super gedaan! Op naar de volgende video!</p>
+                                <!--popup's close button-->
+
+                                <div class="close">
+                                    <div class="before"></div>
+                                    <div class="after"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <span>
+                            <button id="toggle" class="player-btn">
+                                <div id="play"></div>
+                            </button>
+                            <button id="rewind" class="player-btn">
+                                <div id="rewindicon"></div>
+                            </button>
+                            <button class="vinkje">
+                                <div id="vinkjeicon"></div>
+                            </button>
+                        </span>
+                    </div>
+                </section>
+                <section class="sectionheader">
+                    <h3>Workshop 1: Kleuren met code
+                        <button class="viewed"></button>
+                        <button class="workshop"> Workshop</button>
+                        <a href="/video/mikethefrog.mp4" download="mikethefrog" class="download"> <img
+                                src="/img/download.svg" alt="download">
+                            <p>DOWNLOAD</p>
+                        </a>
+                    </h3>
+                    <div class="accordionparagraph">
+                        <video class="video-js vjs-16-9" id="my-video2" controls autoplay muted loop data-setup='{}'>
+                            <source src="/video/mikethefrog.mp4" type="video/mp4" width="auto">
+                            <!-- <source src="mov_bbb.ogg" type="video/ogg"> -->
+                            Your browser does not support HTML5 video.
+                        </video>
+                        <div class="popup-overlay">
+                            <!--Creates the popup content-->
+                            <div class="popup-content">
+                                <p> Super gedaan! Op naar de volgende video!</p>
+                                <!--popup's close button-->
+
+                                <div class="close">
+                                    <div class="before"></div>
+                                    <div class="after"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <span>
+                            <button id="toggle" class="player-btn">
+                                <div id="play"></div>
+                            </button>
+                            <button id="rewind" class="player-btn">
+                                <div id="rewindicon"></div>
+                            </button>
+                            <button class="vinkje">
+                                <div id="vinkjeicon"></div>
+                            </button>
+                        </span>
+                    </div>
+                </section>
+                <section class="sectionheader">
+                    <h3>Workshop 2: Vormen maken
+                        <button class="viewed"></button>
+                        <button class="workshop"> Workshop</button>
+                    </h3>
+                    <div class="accordionparagraph">
+                        <video class="video-js vjs-16-9" id="my-video3" controls autoplay muted loop data-setup='{}'>
+                            <source src="/video/mikethefrog.mp4" type="video/mp4" width="auto">
+                            <!-- <source src="mov_bbb.ogg" type="video/ogg"> -->
+                            Your browser does not support HTML5 video.
+                        </video>
+                        <div class="popup-overlay">
+                            <!--Creates the popup content-->
+                            <div class="popup-content">
+                                <p> Super gedaan! Op naar de volgende video!</p>
+                                <!--popup's close button-->
+
+                                <div class="close">
+                                    <div class="before"></div>
+                                    <div class="after"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <span>
+                            <button id="toggle" class="player-btn">
+                                <div id="play"></div>
+                            </button>
+                            <button id="rewind" class="player-btn">
+                                <div id="rewindicon"></div>
+                            </button>
+                            <button class="vinkje">
+                                <div id="vinkjeicon"></div>
+                            </button>
+                        </span>
+                    </div></section>
+                    <section class="sectionheader">
+                            <h3>Workshop 3: Beweging
+                        <button class="viewed"></button>
+                        <button class="workshop"> Workshop</button> <a href="/video/mikethefrog.mp4"
+                            download="mikethefrog" class="download"> <img src="/img/download.svg" alt="download">
+                            <p>DOWNLOAD</p>
+                        </a>
+                    </h3>
+                    <div class="accordionparagraph">
+                        <video class="video-js vjs-16-9" id="my-video4" controls autoplay muted loop data-setup='{}'>
+                            <source src="/video/mikethefrog.mp4" type="video/mp4" width="auto">
+                            <!-- <source src="mov_bbb.ogg" type="video/ogg"> -->
+                            Your browser does not support HTML5 video.
+                        </video>
+                        <div class="popup-overlay">
+                            <!--Creates the popup content-->
+                            <div class="popup-content">
+                                <p> Super gedaan! Op naar de volgende video!</p>
+                                <!--popup's close button-->
+
+                                <div class="close">
+                                    <div class="before"></div>
+                                    <div class="after"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <span>
+                            <button id="toggle" class="player-btn">
+                                <div id="play"></div>
+                            </button>
+                            <button id="rewind" class="player-btn">
+                                <div id="rewindicon"></div>
+                            </button>
+                            <button class="vinkje">
+                                <div id="vinkjeicon"></div>
+                            </button>
+                        </span>
+                    </div></section>
+                    <section class="sectionheader">
+                    <h3>Workshop 4: Variabelen gebruiken
+                        <button class="viewed"></button>
+                        <button class="workshop"> Workshop</button>
+                    </h3>
+                    <div class="accordionparagraph">
+                        <video class="video-js vjs-16-9" id="my-video5" controls autoplay muted loop data-setup='{}'>
+                            <source src="/video/mikethefrog.mp4" type="video/mp4" width="auto">
+                            <!-- <source src="mov_bbb.ogg" type="video/ogg"> -->
+                            Your browser does not support HTML5 video.
+                        </video>
+                        <div class="popup-overlay">
+                            <!--Creates the popup content-->
+                            <div class="popup-content">
+                                <p> Super gedaan! Op naar de volgende video!</p>
+                                <!--popup's close button-->
+
+                                <div class="close">
+                                    <div class="before"></div>
+                                    <div class="after"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <span>
+                            <button id="toggle" class="player-btn">
+                                <div id="play"></div>
+                            </button>
+                            <button id="rewind" class="player-btn">
+                                <div id="rewindicon"></div>
+                            </button>
+                            <button class="vinkje">
+                                <div id="vinkjeicon"></div>
+                            </button>
+                        </span>
+                    </div></section>
+            </div>
+        </div>
+
+        <!-- end playlist -->
+        <!-- begin support -->
+
+        <div id="support">
+            <h3>Support</h3>
+            <h2>Kom je er niet uit? <br>Wij helpen je graag verder</h2>
+        </div>
+        <div id="crew">
+            <div class="member klaartje1">
+                <div class="inner">
+                    <p> <strong>Klaartje Klaassen</strong><br> Hoofd Contactpersoon</p>
+                    <div class="email">
+                        <a href="mailto:jarno.cammaerts@gmail.com">EMAIL</a>
+                    </div>
+                </div>
+            </div>
+            <div class="member klaartje2">
+                <div class="inner">
+                    <p> <strong>Klaartje Klaassen</strong> <br>Hoofd Contactpersoon</p>
+                    <div class="email">
+                        <a href="mailto:jarno.cammaerts@gmail.com">EMAIL</a>
+                    </div>
+                </div>
+            </div>
+            <div class="member klaartje3">
+                <div class="inner">
+                    <p> <strong>Klaartje Klaassen</strong><br> Hoofd Contactpersoon</p>
+                    <div class="email">
+                        <a href="mailto:jarno.cammaerts@gmail.com">EMAIL</a>
+                    </div>
+                </div>
+            </div>
+            <div class="member klaartje4">
+                <div class="inner">
+                    <p> <strong>Klaartje Klaassen</strong><br> Hoofd Contactpersoon</p>
+                    <div class="email">
+                        <a href="mailto:jarno.cammaerts@gmail.com">EMAIL</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- end support -->
+        <!-- begin pink image -->
+        <div class="tinted-imagepink">
+            <div id="imagetext2">
+                <h2>Klaar voor de <br> volgende uitdaging?
+                </h2>
+                <p>In ons expertprogramma vind je lessen voor gevorderden </p>
+            </div>
+            <div class="bluebutton">
+                <a href="">KOM MAAR OP</a>
+            </div>
+        </div>
+        <!-- end pink image -->
+
+    </main>
+    <footer>
+        <div class="wrapper">
+            <h4>THEME SWITCH</h4>
+            <input type="checkbox" name="" id="switch">
+            <label for="switch" class="switch-label">
+                <div class="toggle"></div>
+            </label>
+        </div>
+    </footer>
+
+</body>
