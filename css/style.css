@@ -718,6 +718,20 @@ p {
         height: 20px;
         background-size: 30%;
     }
+    #rewindicon {
+        background-size: 160%;
+    }
+}
+@media (max-width: 375px) {
+    #rewindicon{
+        background-size: 300%;
+        margin-bottom: -10px;
+    }
+    #accordion {
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 50px;
+    }
 }
 
 #support {
