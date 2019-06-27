@@ -724,8 +724,7 @@ p {
 }
 @media (max-width: 375px) {
     #rewindicon{
-        background-size: 300%;
-        margin-bottom: -10px;
+        background-size: 100%;
     }
     #accordion {
         margin-left: 0px;
