@@ -78,7 +78,7 @@ a {
     position: fixed;
     clear: both;
     z-index: 999;
-    background-image: url(/img/logo.png);
+    background-image: url(../img/logo.png);
     background-repeat: no-repeat;
     background-position-x: 15%;
     background-position-y: 20px;
@@ -342,7 +342,7 @@ p {
 }
 
 #play {
-    background-image: url(/img/play.svg);
+    background-image: url(../img/play.svg);
     background-repeat: no-repeat;
     width: auto;
     height: 100%;
@@ -361,7 +361,7 @@ p {
 }
 
 #rewindicon {
-    background-image: url(/img/rewindicon.svg);
+    background-image: url(../img/rewindicon.svg);
     background-repeat: no-repeat;
     width: auto;
     height: 80%;
@@ -389,7 +389,7 @@ p {
 }
 
 #vinkjeicon {
-    background-image: url(/img/vinkjeicon.svg);
+    background-image: url(../img/vinkjeicon.svg);
     background-repeat: no-repeat;
     width: auto;
     height: 80%;
@@ -407,7 +407,7 @@ p {
     width: 50%;
     height: 50%;
     left: 25%;
-    background-image: url(/img/stars.svg);
+    background-image: url(../img/stars.svg);
     background-size: 30%;
     background-repeat: no-repeat;
     background-position-x: 45%;
@@ -515,7 +515,7 @@ p {
     border-radius: 33px;
     border: none;
     margin-left: 2%;
-    background-image: url(/img/vinkjeicon.svg);
+    background-image: url(../img/vinkjeicon.svg);
     background-position-x: 50%;
     background-position-y: 40%;
     background-repeat: no-repeat;
@@ -574,7 +574,7 @@ p {
     padding-bottom: 20px;
     padding-top: 20px;
     margin-bottom: 1px;
-    background-image: url("/img/greytriangle.png");
+    background-image: url("../img/greytriangle.png");
     background-position-y: 17px;
     background-position-x: 5px;
     background-repeat: no-repeat;
@@ -583,7 +583,7 @@ p {
 .ui-accordion-header-active {
     border: solid 2px blue;
     cursor: pointer;
-    background-image: url("/img/triangle.png");
+    background-image: url("../img/triangle.png");
     background-repeat: no-repeat;
     background-position-y: 13px;
     background-position-x: 7px;
@@ -943,7 +943,7 @@ p {
     color: white;
     background: /* top, transparent blue */
     linear-gradient( rgba(255, 175, 227, 1), rgba(204, 0, 133, 0.75)), /* image */
-    url(/img/nicole-wolf-1339717-unsplash.jpg);
+    url(../img/nicole-wolf-1339717-unsplash.jpg);
     background-size: cover;
     margin-top: 100px;
     float: left;
@@ -1128,7 +1128,7 @@ footer h4 {
 }
 
 .dark .header {
-    background-image: url(/img/logo2.png);
+    background-image: url(../img/logo2.png);
 }
 
 .dark .bluebutton a {
