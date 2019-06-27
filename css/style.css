@@ -212,7 +212,7 @@ a {
     color: white;
     background: /* top, transparent blue */
     linear-gradient( rgba(29, 0, 255, 0.75), rgba(0, 118, 255, 0.75)), /* image */
-    url(/img/daria-nepriakhina-736026-unsplash.jpg);
+    url(../img/daria-nepriakhina-736026-unsplash.jpg);
     background-size: cover;
     padding-top: 150px;
 }
