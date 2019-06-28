@@ -330,7 +330,7 @@ p {
     color: #CC0185;
 }
 
-#toggle {
+.toggle {
     position: absolute;
     border: none;
     background: #D1E7FF;
@@ -341,15 +341,17 @@ p {
     width: 6%;
 }
 
-#play {
+.play {
     background-image: url(../img/play.svg);
     background-repeat: no-repeat;
     width: auto;
     height: 100%;
     background-size: 80%;
+    background-position-y: 60%;
+
 }
 
-#rewind {
+.rewind {
     position: absolute;
     border: none;
     background: #D1E7FF;
@@ -358,14 +360,15 @@ p {
     border-radius: 50%;
     height: 8%;
     width: 4.7%;
+    
 }
 
-#rewindicon {
+.rewindicon {
     background-image: url(../img/rewindicon.svg);
     background-repeat: no-repeat;
     width: auto;
     height: 80%;
-    background-position-y: 80%;
+    background-position-y: 60%;
     margin-left: 5%;
     background-size: 80%;
 }
@@ -388,7 +391,7 @@ p {
     color: #CC0185;
 }
 
-#vinkjeicon {
+.vinkjeicon {
     background-image: url(../img/vinkjeicon.svg);
     background-repeat: no-repeat;
     width: auto;
@@ -618,20 +621,20 @@ p {
 }
 
 @media (max-width:1100px) {
-    #toggle {
+    .toggle {
         height: 20%;
         width: 12%;
     }
-    #play {
+    .play {
         margin-top: 8%;
     }
-    #rewind {
+    .rewind {
         height: 16%;
         width: 9.4%;
         left: 33%;
         top: 43%;
     }
-    #rewindicon {
+    .rewindicon {
         margin-bottom: 8%;
         margin-left: 15%;
     }
@@ -718,12 +721,12 @@ p {
         height: 20px;
         background-size: 30%;
     }
-    #rewindicon {
+    .rewindicon {
         background-size: 160%;
     }
 }
 @media (max-width: 375px) {
-    #rewindicon{
+    .rewindicon{
         background-size: 100%;
     }
     #accordion {
@@ -1054,7 +1057,7 @@ footer {
     transition: 0.5s all ease;
 }
 
-.switch-label .toggle {
+.switch-label .toggle2 {
     width: 25px;
     height: 25px;
     border-radius: 25px;
@@ -1079,7 +1082,7 @@ footer {
     transition: .5s all ease;
 }
 
-#switch:checked~.switch-label .toggle {
+#switch:checked~.switch-label .toggle2 {
     height: 12.5px;
     border-radius: 25px 25px 0 0;
     background: transparent;

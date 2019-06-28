@@ -25,13 +25,13 @@ $('video').each(function(){
         // autoplay: 'muted', 
         // loop: true
     });
-    $("button#rewind").click(function () {
+    $("button.rewind").click(function () {
         player.currentTime(0);// button function for rewind
     });
 
     let geklikt = false;
 
-    $("button#toggle").click(function () {
+    $("button.toggle").click(function () {
         //ik ga ervanuit dat de video autoplayed, dus als je klikt hij gepauzeerd word
         if (geklikt == false) {
             player.pause();
