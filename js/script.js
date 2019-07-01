@@ -11,7 +11,17 @@ $(document).ready(function () {
     clicked = true;
 
     $("#accordion").accordion({ animate: 400, heightStyle: "content", header: ".sectionheader h3"});
-    $("button.player-btn").click(function () {
+    $(".workshop").click(function () {
+        var color = clicked ? '#FFAFE3' : '#D1E7FF;';
+        $(this).css('background-color', color);
+        clicked = !clicked;
+    });
+    $(".toggle").click(function () {
+        var color = clicked ? '#FFAFE3' : '#D1E7FF;';
+        $(this).css('background-color', color);
+        clicked = !clicked;
+    });
+    $(".rewind").click(function () {
         var color = clicked ? '#FFAFE3' : '#D1E7FF;';
         $(this).css('background-color', color);
         clicked = !clicked;
